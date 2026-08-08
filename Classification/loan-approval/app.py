@@ -195,12 +195,19 @@ st.markdown(
     margin-top: 15px;
 }
 
-/* Probability value */
-.probability-value {
-    color: #166534 !important;
-    font-size: 32px;
-    font-weight: 700;
+/* Input box */
+div[data-testid="stNumberInput"] input {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    border: 1px solid #d1d5db !important;
+    border-radius: 8px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    opacity: 1 !important;
+    -webkit-text-fill-color: #111827 !important;
 }
+
+
 </style>
 """,
     unsafe_allow_html=True,
