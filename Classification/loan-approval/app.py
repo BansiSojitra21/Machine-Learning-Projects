@@ -197,8 +197,8 @@ st.markdown(
 
 /* Input box */
 div[data-testid="stNumberInput"] input {
-    background-color: #ffffff !important;
-    color: #111827 !important;
+    background-color: #00000 !important;
+    color: #fff !important;
     border: 1px solid #d1d5db !important;
     border-radius: 8px !important;
     font-size: 16px !important;
