@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from pathlib import Path
 
 # =========================================================
 # PAGE CONFIGURATION
@@ -205,12 +206,13 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+BASE_DIR = Path(__file__).resolve().parent
 
 # =========================================================
 # LOAD MODEL
 # =========================================================
 
-with open("loan_model.pkl", "rb") as file:
+with open(BASE_DIR / "loan_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 
@@ -218,7 +220,7 @@ with open("loan_model.pkl", "rb") as file:
 # LOAD SCALER
 # =========================================================
 
-with open("scaler.pkl", "rb") as file:
+with open(BASE_DIR / "scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 
