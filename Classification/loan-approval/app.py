@@ -201,7 +201,7 @@ div[data-testid="stNumberInput"] input {
 
 /* Selectbox label */
 div[data-testid="stSelectbox"] label {
-    color: #111827 !important;
+    color: #fff !important;
     font-weight: 500 !important;
 }
 
@@ -216,20 +216,9 @@ div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
 
 /* Selected value */
 div[data-testid="stSelectbox"] div[data-baseweb="select"] span {
-    color: #111827 !important;
+    color: #fff !important;
 }
 
-/* Dropdown arrow */
-div[data-testid="stSelectbox"] svg {
-    fill: #111827 !important;
-    color: #111827 !important;
-}
-
-/* Selectbox focus */
-div[data-testid="stSelectbox"] div[data-baseweb="select"] > div:focus-within {
-    border-color: #2563eb !important;
-    box-shadow: 0 0 0 1px #2563eb !important;
-}
 </style>
 """,
     unsafe_allow_html=True,
