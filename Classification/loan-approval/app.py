@@ -201,8 +201,8 @@ div[data-testid="stNumberInput"] input {
 
 /* Selectbox container */
 div[data-testid="stSelectbox"] {
-    background-color: #ffffff !important;
-    color: #000 !important;
+    background-color: #000 !important;
+    color: #fff !important;
     border: 1px solid #d1d5db !important;
     border-radius: 8px !important;
     min-height: 42px !important;
