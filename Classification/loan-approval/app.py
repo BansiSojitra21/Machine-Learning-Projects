@@ -168,17 +168,6 @@ st.markdown(
         font-size: 16px !important;
     }
 
-    /* ---------------- FOOTER ---------------- */
-
-    .footer {
-        text-align: center;
-        color: #64748b !important;
-        font-size: 13px !important;
-        margin-top: 35px;
-        padding-top: 20px;
-        border-top: 1px solid #dbe1ea;
-    }
-
 
 /* Normal text after prediction */
 .result-text {
@@ -206,7 +195,14 @@ div[data-testid="stNumberInput"] input {
     opacity: 1 !important;
     -webkit-text-fill-color: #111827 !important;
 }
-
+/* Selectbox container */
+div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    border: 1px solid #d1d5db !important;
+    border-radius: 8px !important;
+    min-height: 42px !important;
+}
 
 </style>
 """,
