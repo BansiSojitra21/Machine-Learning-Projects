@@ -201,14 +201,14 @@ div[data-testid="stNumberInput"] input {
 
 /* Selectbox label */
 div[data-testid="stSelectbox"] label {
-    color: #fff !important;
+    color: #000 !important;
     font-weight: 500 !important;
 }
 
 /* Selectbox container */
 div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
     background-color: #ffffff !important;
-    color: #111827 !important;
+    color: #000 !important;
     border: 1px solid #d1d5db !important;
     border-radius: 8px !important;
     min-height: 42px !important;
@@ -216,7 +216,7 @@ div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
 
 /* Selected value */
 div[data-testid="stSelectbox"] div[data-baseweb="select"] span {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 </style>
