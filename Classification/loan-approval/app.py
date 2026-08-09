@@ -101,11 +101,6 @@ st.markdown(
         color: #000 !important;
     }
 
-    /* Number input text */
-    input {
-        color: #fff !important;
-    }
-
     /* ---------------- BUTTON ---------------- */
 
     .stButton > button {
