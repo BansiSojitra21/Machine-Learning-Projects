@@ -1,16 +1,19 @@
 import streamlit as st
 import pandas as pd
 import pickle
+from pathlib import Path
 
 
 # ============================================================
 # Load Model and Preprocessor
 # ============================================================
 
-with open("churn_model.pkl", "rb") as file:
+BASE_DIR = Path(__file__).resolve().parent
+
+with open(BASE_DIR / "churn_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("preprocessor.pkl", "rb") as file:
+with open(BASE_DIR / "preprocessor.pkl", "rb") as file:
     preprocessor = pickle.load(file)
 
 
