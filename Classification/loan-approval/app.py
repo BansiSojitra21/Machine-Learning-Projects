@@ -195,6 +195,16 @@ div[data-testid="stNumberInput"] input {
     opacity: 1 !important;
     -webkit-text-fill-color: #111827 !important;
 }
+/* =========================================================
+   SELECT BOX
+   ========================================================= */
+
+/* Selectbox label */
+div[data-testid="stSelectbox"] label {
+    color: #111827 !important;
+    font-weight: 500 !important;
+}
+
 /* Selectbox container */
 div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
     background-color: #ffffff !important;
@@ -204,6 +214,22 @@ div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
     min-height: 42px !important;
 }
 
+/* Selected value */
+div[data-testid="stSelectbox"] div[data-baseweb="select"] span {
+    color: #111827 !important;
+}
+
+/* Dropdown arrow */
+div[data-testid="stSelectbox"] svg {
+    fill: #111827 !important;
+    color: #111827 !important;
+}
+
+/* Selectbox focus */
+div[data-testid="stSelectbox"] div[data-baseweb="select"] > div:focus-within {
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 1px #2563eb !important;
+}
 </style>
 """,
     unsafe_allow_html=True,
