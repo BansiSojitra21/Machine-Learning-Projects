@@ -98,7 +98,7 @@ st.markdown(
 
     /* Select box text */
     [data-baseweb="select"] {
-        color: #111827 !important;
+        color: #000 !important;
     }
 
     /* Number input text */
@@ -195,18 +195,7 @@ div[data-testid="stNumberInput"] input {
     opacity: 1 !important;
     -webkit-text-fill-color: #111827 !important;
 }
-/* =========================================================
-   SELECT BOX
-   ========================================================= */
 
-/* Selectbox container */
-div[data-testid="stSelectbox"] {
-    background-color: #000 !important;
-    color: #fff !important;
-    border: 1px solid #d1d5db !important;
-    border-radius: 8px !important;
-    min-height: 42px !important;
-}
 
 </style>
 """,
