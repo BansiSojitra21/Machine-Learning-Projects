@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-
+from pathlib import Path
 
 # --------------------------------------------------
 # Page Configuration
@@ -17,11 +17,12 @@ st.set_page_config(
 # --------------------------------------------------
 # Load Model and Preprocessor
 # --------------------------------------------------
+BASE_DIR = Path(__file__).resolve().parent
 
-with open("student_performance.pkl", "rb") as file:
+with open(BASE_DIR / "student_performance.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("preprocessor.pkl", "rb") as file:
+with open(BASE_DIR / "preprocessor.pkl", "rb") as file:
     preprocessor = pickle.load(file)
 
 
