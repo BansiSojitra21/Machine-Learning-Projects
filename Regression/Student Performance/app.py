@@ -19,10 +19,10 @@ st.set_page_config(
 # --------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
 
-with open(BASE_DIR / "student_performance.pkl", "rb") as file:
+with open("student_performance.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open(BASE_DIR / "preprocessor.pkl", "rb") as file:
+with open("preprocessor.pkl", "rb") as file:
     preprocessor = pickle.load(file)
 
 
