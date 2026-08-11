@@ -8,8 +8,7 @@ Each project follows a complete machine learning workflow, including **data clea
 
 ### ✅ Completed
 
-* 📊 **[Student Performance Prediction](./Student Performance/)**
-  Predicts student performance based on various academic and personal factors.
+Student Performance Predicts student performance based on various academic and personal factors.
 
 ### 🚧 Coming Soon
 
